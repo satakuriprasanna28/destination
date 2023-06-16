@@ -1,0 +1,48 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.search-container {
+  max-width: 885px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #252627;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.search-inp-con {
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.search-bar {
+  background-color: #f1f5f9;
+  border: 0;
+  outline: none;
+  height: 40px;
+  color: #0f172a;
+  font-family: 'Open Sans';
+}
+
+.searchIcon {
+  height: 20px;
+}
+
+.destination-item-icon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 40px;
+  padding: 0;
+}
